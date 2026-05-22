@@ -2,11 +2,11 @@
 # frozen_string_literal: true
 
 cask "flashot" do
-  arch arm: "aarch64", intel: "x64"
+  arch arm: "aarch64", intel: "9aa2d637f307451296b00fb1d093006d260cdb5dd303c53e64e1a63dd0b476f9"
 
-  version "0.2.3"
-  sha256 arm:   "f12c34bc0355f3aeb81b55f2ec449eba573340eb82d57a231d5d3c718965cc2d",
-         intel: "0f4c8ef5330d8ad1fa49863d5f214c322198500a2ab8822e60a1cd234f82d113"
+  version "0.3.0"
+  sha256 arm:   "e05101556987ca84c0d3d8bfdb27a2fb8d568db92eb58a77c8d6904775ee7462",
+         intel: "9aa2d637f307451296b00fb1d093006d260cdb5dd303c53e64e1a63dd0b476f9"
 
   url "https://github.com/poneding/flashot/releases/download/v#{version}/Flashot_#{version}_#{arch}.dmg",
       verified: "github.com/poneding/flashot/"
