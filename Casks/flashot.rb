@@ -5,10 +5,10 @@ cask "flashot" do
   arch arm: "aarch64", intel: "x64"
 
   version "0.2.3"
-  sha256 arm:   "REPLACE_WITH_AARCH64_SHA256",
-         intel: "REPLACE_WITH_X64_SHA256"
+  sha256 arm:   "f12c34bc0355f3aeb81b55f2ec449eba573340eb82d57a231d5d3c718965cc2d",
+         intel: "0f4c8ef5330d8ad1fa49863d5f214c322198500a2ab8822e60a1cd234f82d113"
 
-  url "https://github.com/poneding/flashot/releases/download/v#{version}/Flashot-#{version}-macos-#{arch}.dmg",
+  url "https://github.com/poneding/flashot/releases/download/v#{version}/Flashot_#{version}_#{arch}.dmg",
       verified: "github.com/poneding/flashot/"
   name "Flashot"
   desc "Fast, cross-platform screenshot tool"
