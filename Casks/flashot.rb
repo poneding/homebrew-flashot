@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 cask "flashot" do
-  arch arm: "aarch64", intel: "9e446c7553bbb800588d75966bcc8a5f6f543c5bc3f795a0cf7e57205adadca0"
+  arch arm: "aarch64", intel: "x64"
 
   version "0.4.0"
   sha256 arm:   "14eb756e552c22e5ccf9206b45d2212c785df9b89afcc9472843066d0ae0c8cb",
