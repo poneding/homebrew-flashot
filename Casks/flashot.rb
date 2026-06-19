@@ -4,9 +4,9 @@
 cask "flashot" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.6.1"
-  sha256 arm:   "77f347cfb8ba245dfbf41944c07ef815d644a8095e18484af9e986ee99914fe4",
-         intel: "681db3ec5d976316627f3933bcd30135ccb3b31fcdb912142313f384a6220903"
+  version "0.6.2"
+  sha256 arm:   "94f841e76566c4ea0f900c7652857b61f416f41b0296abf5af9ec714c89c44e6",
+         intel: "847a83ed94d93c4af80e4af504fc0c3912516fa974f5006de300f71c3af489a0"
 
   url "https://github.com/poneding/flashot/releases/download/v#{version}/Flashot_#{version}_#{arch}.dmg",
       verified: "github.com/poneding/flashot/"
